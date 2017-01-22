@@ -1,4 +1,4 @@
-github "shogo4405/lf.swift"
+github "shogo4405/lf.swift" "master"
 github "BradLarson/GPUImage"
 
 
