@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "292FA1C51E2A200D00F88072"
                BuildableName = "GPUHaishinKit.framework"
-               BlueprintName = "GPUHaishinKit"
+               BlueprintName = "iOS"
                ReferencedContainer = "container:GPUHaishinKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "292FA1C51E2A200D00F88072"
             BuildableName = "GPUHaishinKit.framework"
-            BlueprintName = "GPUHaishinKit"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:GPUHaishinKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "292FA1C51E2A200D00F88072"
             BuildableName = "GPUHaishinKit.framework"
-            BlueprintName = "GPUHaishinKit"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:GPUHaishinKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

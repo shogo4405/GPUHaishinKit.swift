@@ -20,7 +20,9 @@ public extension NetStream {
         return output
     }
 
+    #if os(iOS)
     public func attachGPUImageVideoCamera(_ camera:GPUImageVideoCamera) {
         mixer.session = camera.captureSession
     }
+    #endif
 }
