@@ -14,6 +14,27 @@ iOS10.0+
 * NSCameraUsageDescription
 * NSPhotoLibraryUsageDescription
 
+## RTMP Usage
+Real Time Messaging Protocol (RTMP).
+
+```swift
+var camera:GPUImageVideoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset352x288, cameraPosition: .back)
+var rtmpConnection:RTMPConnection = RTMPConnection()
+var rtmpStream:RTMPStream = RTMPStream(connection: rtmpConnection)
+rtmpStream.attachGPUImageVideoCamera(camera)
+
+var filter:GPUImageSepiaFilter = GPUImageSepiaFilter()
+camera?.addTarget(filter)
+filter?.addTarget(outputView)
+filter?.addTarget(rtmpStream.rawDataOutput)
+
+camera.outputImageOrientation = .portrait
+camera.startCapture()
+
+rtmpConnection.connect("rtmp://localhost/appName/instanceName")
+rtmpStream.publish("streamName")
+```
+
 ## Installation
 
 ## License
