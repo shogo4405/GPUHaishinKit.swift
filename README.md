@@ -73,7 +73,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 def import_pods
-    pod 'GPUHaishinKit.swift', '~> 1.0.0'
+    pod 'GPUHaishinKit', '~> 1.0.0'
 end
 
 target 'Your Target'  do
