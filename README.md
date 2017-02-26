@@ -18,6 +18,12 @@ iOS10.0+
 Real Time Messaging Protocol (RTMP).
 
 ```swift
+// must import lf and GPUHaishinKit
+import lf 
+import GPUHaishinKit
+
+import GPUImage
+
 class ViewController: UIViewController {
     @IBOutlet weak var outputView: GPUImageView?
 
