@@ -38,6 +38,9 @@
 		298A748A1E62D0F100870DBA /* lf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBC1E62BE3E00B3569C /* lf.framework */; };
 		298A748B1E62D0F100870DBA /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBD1E62BE3E00B3569C /* XCGLogger.framework */; };
 		298A748C1E62D10900870DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295F9DB61E62BAF700B3569C /* Main.storyboard */; };
+		298A74901E62DBAE00870DBA /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 298A748D1E62DBAE00870DBA /* Cartfile */; };
+		298A74911E62DBAE00870DBA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 298A748E1E62DBAE00870DBA /* LICENSE */; };
+		298A74921E62DBAE00870DBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 298A748F1E62DBAE00870DBA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +116,9 @@
 		295F9DBB1E62BE3E00B3569C /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = Carthage/Build/Mac/GPUImage.framework; sourceTree = "<group>"; };
 		295F9DBC1E62BE3E00B3569C /* lf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lf.framework; path = Carthage/Build/Mac/lf.framework; sourceTree = "<group>"; };
 		295F9DBD1E62BE3E00B3569C /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/Mac/XCGLogger.framework; sourceTree = "<group>"; };
+		298A748D1E62DBAE00870DBA /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		298A748E1E62DBAE00870DBA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		298A748F1E62DBAE00870DBA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +169,9 @@
 		292FA1BC1E2A200D00F88072 = {
 			isa = PBXGroup;
 			children = (
+				298A748D1E62DBAE00870DBA /* Cartfile */,
+				298A748E1E62DBAE00870DBA /* LICENSE */,
+				298A748F1E62DBAE00870DBA /* README.md */,
 				295F9D8B1E62B7D400B3569C /* Examples */,
 				292FA1D11E2A2B3E00F88072 /* Frameworks */,
 				295F9D841E62B74D00B3569C /* Platforms */,
@@ -418,6 +427,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298A74911E62DBAE00870DBA /* LICENSE in Resources */,
+				298A74901E62DBAE00870DBA /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298A74921E62DBAE00870DBA /* README.md in Sources */,
 				295F9D801E62B72900B3569C /* HaishinGPUImageRawDataOutput.swift in Sources */,
 				295F9D811E62B72900B3569C /* NetStream+Extension.swift in Sources */,
 			);
