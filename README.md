@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         rtmpStream?.close()
         rtmpStream?.dispose()
-        camera?.stopCameraCapture()
+        camera?.stopCapture()
         super.viewWillDisappear(animated)
     }
 }
