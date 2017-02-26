@@ -34,8 +34,6 @@ end
 github "shogo4405/GPUHaishinKit.swift" ~> 1.0.0
 ```
 
-## Exsample
-
 ## License
 New BSD
 
