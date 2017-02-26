@@ -18,21 +18,46 @@ iOS10.0+
 Real Time Messaging Protocol (RTMP).
 
 ```swift
-var camera:GPUImageVideoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset352x288, cameraPosition: .back)
-var rtmpConnection:RTMPConnection = RTMPConnection()
-var rtmpStream:RTMPStream = RTMPStream(connection: rtmpConnection)
-rtmpStream.attachGPUImageVideoCamera(camera)
+class ViewController: UIViewController {
+    @IBOutlet weak var outputView: GPUImageView?
 
-var filter:GPUImageSepiaFilter = GPUImageSepiaFilter()
-camera?.addTarget(filter)
-filter?.addTarget(outputView)
-filter?.addTarget(rtmpStream.rawDataOutput)
+    var camera:GPUImageVideoCamera?
+    var filter:GPUImageSepiaFilter?
+    var rtmpConnection:RTMPConnection?
+    var rtmpStream:RTMPStream?
 
-camera.outputImageOrientation = .portrait
-camera.startCapture()
+    var output:GPUImageRawDataOutput!
 
-rtmpConnection.connect("rtmp://localhost/appName/instanceName")
-rtmpStream.publish("streamName")
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        camera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset1280x720, cameraPosition: .back)
+        rtmpConnection = RTMPConnection()
+        rtmpStream = RTMPStream(connection: rtmpConnection!)
+        filter = GPUImageSepiaFilter()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        rtmpStream?.attachGPUImageVideoCamera(camera!)
+        rtmpStream?.attachAudio(AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeAudio))
+        rtmpStream?.videoSettings = [
+            "width": 720,
+            "height": 1280,
+        ]
+        camera?.addTarget(filter!)
+        filter?.addTarget(outputView)
+        filter?.addTarget(rtmpStream!.rawDataOutput)
+        camera?.outputImageOrientation = .portrait
+        camera?.startCapture()
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        rtmpStream?.close()
+        rtmpStream?.dispose()
+        camera?.stopCameraCapture()
+        super.viewWillDisappear(animated)
+    }
+}
 ```
 
 ## Installation
