@@ -6,7 +6,7 @@ GPUImage + HaishinKit(lf). Camera and Microphone streaming library via RTMP, HLS
 ## Features
 * Support GPUImage with a (RTMP/HLS)Stream.
 * see also
- - https://github.com/shogo4405/lf.swift/blob/master/README.md
+  - https://github.com/shogo4405/lf.swift/blob/master/README.md
 
 ## Cocoa Keys
 iOS10.0+
