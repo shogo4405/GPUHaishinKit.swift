@@ -40,7 +40,6 @@
 		298A748C1E62D10900870DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295F9DB61E62BAF700B3569C /* Main.storyboard */; };
 		298A74901E62DBAE00870DBA /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 298A748D1E62DBAE00870DBA /* Cartfile */; };
 		298A74911E62DBAE00870DBA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 298A748E1E62DBAE00870DBA /* LICENSE */; };
-		298A74921E62DBAE00870DBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 298A748F1E62DBAE00870DBA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -500,7 +499,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298A74921E62DBAE00870DBA /* README.md in Sources */,
 				295F9D801E62B72900B3569C /* HaishinGPUImageRawDataOutput.swift in Sources */,
 				295F9D811E62B72900B3569C /* NetStream+Extension.swift in Sources */,
 			);

@@ -14,7 +14,7 @@ public extension NetStream {
         if let width:Int = videoSettings["width"] as? Int, let height:Int = videoSettings["height"] as? Int {
             size = CGSize(width: width, height: height)
         }
-        let output = HaishinGPUImageRawOutput(imageSize: size ?? NetStream.size)
+        let output:HaishinGPUImageRawOutput = HaishinGPUImageRawOutput(imageSize: size ?? NetStream.size)
         output.delegate = self
         metadata[NetStream.tag] = output
         return output
