@@ -1,8 +1,8 @@
 # GPUHaishinKit.swift
-[![Platform](https://img.shields.io/cocoapods/p/DebugHead.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinkit)
+[![Platform](https://img.shields.io/cocoapods/p/GPUHaishinKit.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinKit)
 ![Language](https://img.shields.io/badge/language-Swift%203.1-orange.svg)
-[![CocoaPods](https://img.shields.io/cocoapods/v/DebugHead.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinkit)
-[![GitHub license](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://raw.githubusercontent.com/shogo4405/GPUHaishinLit.swift/master/LICENSE.md)
+[![CocoaPods](https://img.shields.io/cocoapods/v/GPUHaishinKit.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinKit)
+[![GitHub license](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://raw.githubusercontent.com/shogo4405/GPUHaishinKit.swift/master/LICENSE.md)
 
 GPUImage + HaishinKit(lf). Camera and Microphone streaming library via RTMP, HLS for iOS.
 
@@ -30,7 +30,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 def import_pods
-    pod 'GPUHaishinKit', '~> 1.0.0'
+    pod 'GPUHaishinKit', '~> 1.1.0'
 end
 
 target 'Your Target'  do
@@ -40,7 +40,7 @@ end
 ```
 ### Carthage
 ```
-github "shogo4405/GPUHaishinKit.swift" ~> 1.0.0
+github "shogo4405/GPUHaishinKit.swift" ~> 1.1.0
 ```
 
 ## License
