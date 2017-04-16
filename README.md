@@ -1,12 +1,21 @@
 # GPUHaishinKit.swift
-[![GitHub license](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://raw.githubusercontent.com/shogo4405/lf.swift/master/LICENSE.txt)
+[![Platform](https://img.shields.io/cocoapods/p/DebugHead.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinkit)
+![Language](https://img.shields.io/badge/language-Swift%203.1-orange.svg)
+[![CocoaPods](https://img.shields.io/cocoapods/v/DebugHead.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinkit)
+[![GitHub license](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://raw.githubusercontent.com/shogo4405/GPUHaishinLit.swift/master/LICENSE.txt)
 
-GPUImage + HaishinKit(lf). Camera and Microphone streaming library via RTMP, HLS for iOS, macOS.
+GPUImage + HaishinKit(lf). Camera and Microphone streaming library via RTMP, HLS for iOS.
 
 ## Features
 * Support GPUImage with a (RTMP/HLS)Stream.
 * see also
   - https://github.com/shogo4405/lf.swift/blob/master/README.md
+
+## Requirements
+|-|iOS|XCode|Swift|CocoaPods|Carthage|
+|:----:|:----:|:----:|:----:|:----:|:----:|
+|1.1.0|8.0+|8.3+|3.1|1.2.0|0.20.0+|
+|1.0.0|8.0+|8.0+|3.0|1.1.0|0.17.2+|
 
 ## Cocoa Keys
 iOS10.0+
