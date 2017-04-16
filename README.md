@@ -10,9 +10,9 @@ GPUImage + HaishinKit(lf). Camera and Microphone streaming library via RTMP, HLS
 
 ## Requirements
 |-|iOS|XCode|Swift|CocoaPods|Carthage|
-|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|1.1.0|8.3+|3.1|1.2.0|0.20.0+|
-|1.0.0|8.0+|3.0|1.1.0|0.17.2+|
+|:----:|:----:|:----:|:----:|:----:|:----:|
+|1.1.0|8.0+|8.3+|3.1|1.2.0|0.20.0+|
+|1.0.0|8.0+|8.0+|3.0|1.1.0|0.17.2+|
 
 ## Cocoa Keys
 iOS10.0+
