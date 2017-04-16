@@ -2,7 +2,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/DebugHead.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinkit)
 ![Language](https://img.shields.io/badge/language-Swift%203.1-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/DebugHead.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinkit)
-[![GitHub license](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://raw.githubusercontent.com/shogo4405/GPUHaishinLit.swift/master/LICENSE.txt)
+[![GitHub license](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://raw.githubusercontent.com/shogo4405/GPUHaishinLit.swift/master/LICENSE.md)
 
 GPUImage + HaishinKit(lf). Camera and Microphone streaming library via RTMP, HLS for iOS.
 

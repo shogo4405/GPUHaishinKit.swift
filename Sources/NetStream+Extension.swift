@@ -3,7 +3,7 @@ import GPUImage
 import Foundation
 
 public extension NetStream {
-    private static let tag:String = "com.haishinkit.GPUImageRawOutput"
+    private static let tag:String = "com.haishinkit.GPUHaishinKit.GPUImageRawOutput"
     private static let size:CGSize = CGSize(width: 355, height: 288)
 
     public var rawDataOutput:GPUImageRawDataOutput {
