@@ -1,4 +1,2 @@
-github "shogo4405/lf.swift" ~> 0.6.0
+github "shogo4405/lf.swift" ~> 0.7.1
 github "BradLarson/GPUImage"
-
-
