@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GPUHaishinKit"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "Camera and Microphone streaming library via RTMP, HLS for iOS. Powered by GPUImage + HaishinKit(lf)"
 
   s.description  = <<-DESC
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
 
   s.source_files = "Sources/**/*.swift"
   s.dependency 'GPUImage', '~> 0.1.7'
-  s.dependency 'lf', '~> 0.7.1'
+  s.dependency 'lf', '~> 0.7.2'
 
 end
