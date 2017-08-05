@@ -1,6 +1,6 @@
-import lf
 import UIKit
 import GPUImage
+import HaishinKit
 import GPUHaishinKit
 
 struct Preference {
@@ -30,7 +30,9 @@ class ViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        rtmpStream?.attachGPUImageVideoCamera(camera!)
+        if let camera = camera {
+            rtmpStream?.attachGPUImageVideoCamera(camera)
+        }
         rtmpStream?.attachAudio(AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeAudio))
         rtmpStream?.videoSettings = [
             "width": 720,

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		292FA1D61E2A2B3F00F88072 /* lf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FA1D31E2A2B3F00F88072 /* lf.framework */; };
 		292FA1D71E2A2B3F00F88072 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FA1D41E2A2B3F00F88072 /* XCGLogger.framework */; };
-		295747831E351C2900EF056E /* lf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FA1D31E2A2B3F00F88072 /* lf.framework */; };
+		293874D61F35B01E009F4B30 /* HaishinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293874D51F35B01E009F4B30 /* HaishinKit.framework */; };
+		293874D81F35B03B009F4B30 /* HaishinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293874D71F35B03B009F4B30 /* HaishinKit.framework */; };
 		295747841E351C2B00EF056E /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FA1D41E2A2B3F00F88072 /* XCGLogger.framework */; };
 		295747861E3520D800EF056E /* GPUHaishinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FA1C61E2A200D00F88072 /* GPUHaishinKit.framework */; };
 		2957478A1E35222E00EF056E /* GPUHaishinKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 292FA1C61E2A200D00F88072 /* GPUHaishinKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -28,14 +28,11 @@
 		295F9DB51E62BAA700B3569C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295F9DB01E62BA9500B3569C /* Main.storyboard */; };
 		295F9DC11E62BE4900B3569C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FA1D21E2A2B3F00F88072 /* GPUImage.framework */; };
 		295F9DC21E62BE5400B3569C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBB1E62BE3E00B3569C /* GPUImage.framework */; };
-		295F9DC31E62BE5D00B3569C /* lf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBC1E62BE3E00B3569C /* lf.framework */; };
 		295F9DC51E62BE6600B3569C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292FA1D21E2A2B3F00F88072 /* GPUImage.framework */; };
 		295F9DCA1E62C1E800B3569C /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBD1E62BE3E00B3569C /* XCGLogger.framework */; };
 		298A74841E62D0A200870DBA /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBB1E62BE3E00B3569C /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		298A74861E62D0A200870DBA /* lf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBC1E62BE3E00B3569C /* lf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		298A74881E62D0A200870DBA /* XCGLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBD1E62BE3E00B3569C /* XCGLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		298A74891E62D0F100870DBA /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBB1E62BE3E00B3569C /* GPUImage.framework */; };
-		298A748A1E62D0F100870DBA /* lf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBC1E62BE3E00B3569C /* lf.framework */; };
 		298A748B1E62D0F100870DBA /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295F9DBD1E62BE3E00B3569C /* XCGLogger.framework */; };
 		298A748C1E62D10900870DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 295F9DB61E62BAF700B3569C /* Main.storyboard */; };
 		298A74901E62DBAE00870DBA /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 298A748D1E62DBAE00870DBA /* Cartfile */; };
@@ -79,7 +76,6 @@
 			files = (
 				295F9D791E62B4CA00B3569C /* GPUHaishinKit.framework in Embed Frameworks */,
 				298A74881E62D0A200870DBA /* XCGLogger.framework in Embed Frameworks */,
-				298A74861E62D0A200870DBA /* lf.framework in Embed Frameworks */,
 				298A74841E62D0A200870DBA /* GPUImage.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -90,8 +86,9 @@
 /* Begin PBXFileReference section */
 		292FA1C61E2A200D00F88072 /* GPUHaishinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPUHaishinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		292FA1D21E2A2B3F00F88072 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = Carthage/Build/iOS/GPUImage.framework; sourceTree = "<group>"; };
-		292FA1D31E2A2B3F00F88072 /* lf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lf.framework; path = Carthage/Build/iOS/lf.framework; sourceTree = "<group>"; };
 		292FA1D41E2A2B3F00F88072 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/iOS/XCGLogger.framework; sourceTree = "<group>"; };
+		293874D51F35B01E009F4B30 /* HaishinKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HaishinKit.framework; path = Carthage/Build/iOS/HaishinKit.framework; sourceTree = "<group>"; };
+		293874D71F35B03B009F4B30 /* HaishinKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HaishinKit.framework; path = Carthage/Build/Mac/HaishinKit.framework; sourceTree = "<group>"; };
 		295747701E351B1800EF056E /* Example-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		295F9D5D1E62B42600B3569C /* Example-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		295F9D711E62B4CA00B3569C /* GPUHaishinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPUHaishinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,12 +110,10 @@
 		295F9DB11E62BA9500B3569C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Examples/iOS/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		295F9DB71E62BAF700B3569C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Examples/macOS/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		295F9DBB1E62BE3E00B3569C /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = Carthage/Build/Mac/GPUImage.framework; sourceTree = "<group>"; };
-		295F9DBC1E62BE3E00B3569C /* lf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lf.framework; path = Carthage/Build/Mac/lf.framework; sourceTree = "<group>"; };
 		295F9DBD1E62BE3E00B3569C /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = Carthage/Build/Mac/XCGLogger.framework; sourceTree = "<group>"; };
 		298A748D1E62DBAE00870DBA /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		298A748E1E62DBAE00870DBA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		298A748F1E62DBAE00870DBA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		298F15C41EA3BDB0009226BA /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjcExceptionBridging.framework; path = Carthage/Build/iOS/ObjcExceptionBridging.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				292FA1D61E2A2B3F00F88072 /* lf.framework in Frameworks */,
+				293874D61F35B01E009F4B30 /* HaishinKit.framework in Frameworks */,
 				292FA1D71E2A2B3F00F88072 /* XCGLogger.framework in Frameworks */,
 				295F9DC11E62BE4900B3569C /* GPUImage.framework in Frameworks */,
 			);
@@ -136,7 +131,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295747831E351C2900EF056E /* lf.framework in Frameworks */,
 				295F9DC51E62BE6600B3569C /* GPUImage.framework in Frameworks */,
 				295747841E351C2B00EF056E /* XCGLogger.framework in Frameworks */,
 				295747861E3520D800EF056E /* GPUHaishinKit.framework in Frameworks */,
@@ -148,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				298A74891E62D0F100870DBA /* GPUImage.framework in Frameworks */,
-				298A748A1E62D0F100870DBA /* lf.framework in Frameworks */,
 				298A748B1E62D0F100870DBA /* XCGLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,7 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295F9DC31E62BE5D00B3569C /* lf.framework in Frameworks */,
+				293874D81F35B03B009F4B30 /* HaishinKit.framework in Frameworks */,
 				295F9DC21E62BE5400B3569C /* GPUImage.framework in Frameworks */,
 				295F9DCA1E62C1E800B3569C /* XCGLogger.framework in Frameworks */,
 			);
@@ -204,11 +197,10 @@
 		292FA1D11E2A2B3E00F88072 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				298F15C41EA3BDB0009226BA /* ObjcExceptionBridging.framework */,
+				293874D71F35B03B009F4B30 /* HaishinKit.framework */,
+				293874D51F35B01E009F4B30 /* HaishinKit.framework */,
 				295F9DBB1E62BE3E00B3569C /* GPUImage.framework */,
 				292FA1D21E2A2B3F00F88072 /* GPUImage.framework */,
-				295F9DBC1E62BE3E00B3569C /* lf.framework */,
-				292FA1D31E2A2B3F00F88072 /* lf.framework */,
 				295F9DBD1E62BE3E00B3569C /* XCGLogger.framework */,
 				292FA1D41E2A2B3F00F88072 /* XCGLogger.framework */,
 			);
@@ -469,7 +461,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/GPUImage.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/lf.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/HaishinKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ObjcExceptionBridging.framework",
 			);
@@ -486,7 +478,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/Mac/GPUImage.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/lf.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/HaishinKit.framework",
 				"$(SRCROOT)/Carthage/Build/Mac/XCGLogger.framework",
 				"$(SRCROOT)/Carthage/Build/Mac/ObjcExceptionBridging.framework",
 			);

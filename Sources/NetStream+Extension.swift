@@ -1,5 +1,5 @@
-import lf
 import GPUImage
+import HaishinKit
 import Foundation
 
 public extension NetStream {

@@ -1,5 +1,5 @@
-import lf
 import GPUImage
+import HaishinKit
 import Foundation
 
 class HaishinGPUImageRawOutput: GPUImageRawDataOutput {
