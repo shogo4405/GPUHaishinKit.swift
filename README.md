@@ -33,7 +33,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 def import_pods
-    pod 'GPUHaishinKit', '~> 1.1.3'
+    pod 'GPUHaishinKit', '~> 1.1.4'
 end
 
 target 'Your Target'  do
@@ -43,7 +43,7 @@ end
 ```
 ### Carthage
 ```
-github "shogo4405/GPUHaishinKit.swift" ~> 1.1.3
+github "shogo4405/GPUHaishinKit.swift" ~> 1.1.4
 ```
 
 ## License
