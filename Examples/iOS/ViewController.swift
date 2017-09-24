@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        camera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset1280x720, cameraPosition: .back)
+        camera = GPUImageVideoCamera(sessionPreset: AVCaptureSession.Preset.hd1280x720.rawValue, cameraPosition: .back)
         rtmpConnection = RTMPConnection()
         rtmpStream = RTMPStream(connection: rtmpConnection!)
         filter = GPUImageSepiaFilter()
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         if let camera = camera {
             rtmpStream?.attachGPUImageVideoCamera(camera)
         }
-        rtmpStream?.attachAudio(AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeAudio))
+        rtmpStream?.attachAudio(AVCaptureDevice.default(for: AVMediaType.audio))
         rtmpStream?.videoSettings = [
             "width": 720,
             "height": 1280,
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         publish.isSelected = !publish.isSelected
     }
 
-    func on(status:Notification) {
+    @objc func on(status:Notification) {
         let e:Event = Event.from(status)
         guard let data:ASObject = e.data as? ASObject , let code:String = data["code"] as? String else {
             return

@@ -1,2 +1,2 @@
-github "shogo4405/HaishinKit.swift" ~> 0.7.4
+github "shogo4405/HaishinKit.swift" ~> 0.8.0
 github "BradLarson/GPUImage"
