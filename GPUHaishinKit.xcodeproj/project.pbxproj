@@ -78,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2901FBC41F781BFB00C59E8F /* GPUHaishinKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GPUHaishinKit.podspec; sourceTree = "<group>"; };
 		292FA1C61E2A200D00F88072 /* GPUHaishinKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GPUHaishinKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		292FA1D21E2A2B3F00F88072 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = Carthage/Build/iOS/GPUImage.framework; sourceTree = "<group>"; };
 		293874D51F35B01E009F4B30 /* HaishinKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HaishinKit.framework; path = Carthage/Build/iOS/HaishinKit.framework; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 				298A748D1E62DBAE00870DBA /* Cartfile */,
 				298A748E1E62DBAE00870DBA /* LICENSE */,
 				298A748F1E62DBAE00870DBA /* README.md */,
+				2901FBC41F781BFB00C59E8F /* GPUHaishinKit.podspec */,
 				295F9D8B1E62B7D400B3569C /* Examples */,
 				292FA1D11E2A2B3E00F88072 /* Frameworks */,
 				295F9D841E62B74D00B3569C /* Platforms */,
