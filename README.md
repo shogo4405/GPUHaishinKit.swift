@@ -1,6 +1,6 @@
 # GPUHaishinKit.swift
 [![Platform](https://img.shields.io/cocoapods/p/GPUHaishinKit.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinKit)
-![Language](https://img.shields.io/badge/language-Swift%203.1-orange.svg)
+![Language](https://img.shields.io/badge/language-Swift%204.0-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/GPUHaishinKit.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinKit)
 [![GitHub license](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://raw.githubusercontent.com/shogo4405/GPUHaishinKit.swift/master/LICENSE.md)
 
