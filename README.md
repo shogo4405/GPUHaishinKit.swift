@@ -49,12 +49,6 @@ github "shogo4405/GPUHaishinKit.swift" ~> 1.2.0
 ## License
 BSD-3-Clause
 
-## Donation
-Bitcoin
-```txt
-1CWA9muX36QKBdJiRQJGpu2HvchfEpJbWr
-```
-
 ## RTMP Usage
 ```swift
 // must import HaishinKit and GPUHaishinKit
