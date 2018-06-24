@@ -6,7 +6,7 @@
 
 GPUImage + HaishinKit(lf). Camera and Microphone streaming library via RTMP, HLS for iOS.
 
-## Whare is Issues page?
+## Where is Issues page?
 * Please use here.
   - https://github.com/shogo4405/HaishinKit.swift/issues
 
