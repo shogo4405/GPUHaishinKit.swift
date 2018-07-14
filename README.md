@@ -6,7 +6,6 @@
 [![GitHub license](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/shogo4405/GPUHaishinKit.swift/blob/master/LICENSE.md)
 
 GPUImage is unmaintained. Also can't maintenance GPUHaishinKit. Goodbye!
-
 GPUImage + HaishinKit(lf). Camera and Microphone streaming library via RTMP, HLS for iOS.
 
 ## Features
