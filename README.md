@@ -1,14 +1,12 @@
-# GPUHaishinKit.swift
+# [Archived]GPUHaishinKit.swift
+
 [![Platform](https://img.shields.io/cocoapods/p/GPUHaishinKit.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinKit)
 ![Language](https://img.shields.io/badge/language-Swift%204.0-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/GPUHaishinKit.svg?style=flat)](http://cocoapods.org/pods/GPUHaishinKit)
 [![GitHub license](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/shogo4405/GPUHaishinKit.swift/blob/master/LICENSE.md)
 
+GPUImage is unmaintained. Also can't maintenance GPUHaishinKit. Goodbye! [07/14 2018]
 GPUImage + HaishinKit(lf). Camera and Microphone streaming library via RTMP, HLS for iOS.
-
-## Where is Issues page?
-* Please use here.
-  - https://github.com/shogo4405/HaishinKit.swift/issues
 
 ## Features
 * Support GPUImage with a (RTMP/HLS)Stream.
